@@ -8,6 +8,9 @@
 namespace parma {
   typedef std::pair<const int, T> Item;
 
+
+
+
   class MergeTargets : public Targets {  // we don't really need a map/associative container here - a list/vector/array would work
     public:
 	  //Have this storing the results in Targets associative class and assuming maxW = avgWeight * maxImb
